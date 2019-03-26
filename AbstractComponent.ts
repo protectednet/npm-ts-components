@@ -10,7 +10,7 @@ export abstract class AbstractComponent
     protected constructor(componentElement: any, DI)
     {
         this.componentElement = componentElement;
-        this.componentElement.attr('ss-component', 'true');
+        this.componentElement.attr('protected-component', 'true');
         this.DI = DI;
         return this;
     }
